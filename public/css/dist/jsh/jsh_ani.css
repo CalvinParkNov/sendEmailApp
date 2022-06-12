@@ -1,0 +1,42 @@
+.jsh_ani.fadeInUp {
+	opacity: 0;
+	transform: translate(0, 40px);
+	transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.jsh_ani.fadeInDown {
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.jsh_ani.fadeInLeft {
+	opacity: 0;
+	transform: translate(40px, 0);
+	transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.jsh_ani.fadeInRight {
+	opacity: 0;
+	transform: translate(-40px, 0);
+	transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.jsh_ani.fadeInUp.fast,
+.jsh_ani.fadeInDown.fast,
+.jsh_ani.fadeInLeft.fast,
+.jsh_ani.fadeInRight.fast {
+	transition: opacity 0.4s ease, transform 0.4s ease;	
+}
+
+.jsh_ani.fadeInUp.slow,
+.jsh_ani.fadeInDown.slow,
+.jsh_ani.fadeInLeft.slow,
+.jsh_ani.fadeInRight.slow {
+	transition: opacity 0.9s ease, transform 0.9s ease;	
+}
+
+.jsh_ani.fadeInUp.active,
+.jsh_ani.fadeInDown.active,
+.jsh_ani.fadeInLeft.active,
+.jsh_ani.fadeInRight.active {
+	opacity: 1;
+	transform: translate(0, 0);
+}
